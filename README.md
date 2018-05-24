@@ -58,7 +58,7 @@ Generate *common qr-code*,  *artistic qr-code (black & white or colorized)*,  *a
 
 ```python
 # via pip
-pip(3) install myqr(or MyQR)
+pip(3) install git+git://github.com/Simplici/qrcode.git#egg=qrcode
 ```
 
 ​    
