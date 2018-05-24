@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Simplici/qrcode",
     packages=setuptools.find_packages(),
+    install_requires=["imageio==1.5", "numpy==1.11.1", "Pillow==3.3.1"],
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
